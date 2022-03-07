@@ -1,0 +1,262 @@
+body {
+    margin: 0;
+    text-align: center;
+    justify-content: center;
+}
+      
+.header {
+    text-align: center;
+    width: 100%;
+    background-image: url("https://s.imgur.com/desktop-assets/desktop-assets/homebg.e52b5cdf24f83bcd55f9f1318855f2ef.png");
+    height: 270px;
+    padding: 20px 0 0 0;
+}
+      
+#navlist {
+    overflow: hidden;
+    background-image: url("https://s.imgur.com/desktop-assets/desktop-assets/homebg.e52b5cdf24f83bcd55f9f1318855f2ef.png");
+    display: flex;
+    padding: 10px;
+}
+.selectDiv select{
+    border: none;
+    background-color: #000B49;
+    color: whitesmoke;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+#navlist input{
+    height: 29px;
+    width: 530px;
+    margin-left: 16.5%;
+    margin-right: 10%;
+    background-color: #465881;
+    color: white;  
+    border-radius: 4px; 
+    border: none;
+}
+
+/* navlist designing */
+#navlist a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+      
+/* navlist link hover effect */
+#navlist a:hover {
+    background-color: #ddd;
+    color: black;
+}
+      
+#navlist b{
+    margin-top: 4px;
+    padding: 8px 12px;
+    color:lime;
+    float: left;
+    font-size: 22px;
+}
+ 
+/* scroll portion design */
+.scrollable b {
+    font-family: 'Special Elite', cursive;
+    font-size: 28px;
+}
+      
+.content {
+    padding: 16px;
+}
+      
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+
+/* header top div   /////////////////////////////////////////////////////*/
+
+.topWrapperDiv{
+    display: flex;
+    width: 100%;
+    
+}
+.logoImg{
+   width: 80px;
+   margin-left: 15px;
+}
+
+.newPostBtn{
+    display: flex;
+    width: 120px;
+    height: 35px;
+    background-color: #00C897;
+    border-radius: 4px;
+    vertical-align: middle;
+    color: white;
+    text-align: center;
+    margin-top: 2px;
+    margin-right: 17%;
+    margin-left: 20px;
+}
+
+.newPostBtn div {
+    vertical-align: middle;
+    margin-top: 9px;
+    margin-left: 9px;
+}
+
+.topWrapperDiv input{
+    height: 29px;
+    width: 530px;
+    margin-right: 11.5%;
+    background-color: #465881;
+    color: white;
+    border-radius: 4px; 
+    border: none;
+}
+
+.adFreeBtn{
+ height: 35px;
+ width: 95px;
+ background-color: #5463FF;
+ color: white;
+ border: none;
+ border-radius: 4px;
+}
+
+.adFreeBtn2{
+    height: 35px;
+    width: 95px;
+    background-color: #000B49;
+    color: white;
+    border: none;
+    border-radius: 4px;
+   }
+   .adFreeBtn3{
+    height: 35px;
+    width: 95px;
+    background-color: #00C897;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    margin-right: 15px;
+   }
+.iconDiv{
+    width: 95px;
+    height: 35px;
+    display: flex;
+    margin-top: 7px;
+}
+
+.userIcon{
+    height: 37px;
+    width: 37px;
+    border-radius: 50%;
+    background-color: #00C897;
+    font-size: 24px;
+    vertical-align: middle;
+}
+.iconDiv img{
+    width: 20px;
+    margin-left: 20px;
+    height: 20px;
+}
+
+.tagsWraper{
+    display: flex;
+    margin: auto;
+    width: 1342px;
+    color: #ddd;
+    justify-content: space-evenly;
+}
+
+.tagsHeading{
+    width: 1296px;
+    margin: 0 auto 10px auto;
+    color: #EDEDED;
+    display: flex;
+}
+.tagsHeading div:nth-child(1){
+    margin-right: 83%;
+}
+
+.tagsWraper .tags{
+    width: 110px;
+    height: 130px;
+
+}
+
+.tagsWraper .tags img{
+ width: 100%;
+ height: 53px;
+}
+
+.tagsWraper .tags div:nth-child(1){
+    height: 52px;
+    width: 111px;
+    margin: auto;
+}
+.tagsWraper .tags div:nth-child(2){
+    height: 70px;
+    width: 107px;
+    margin: auto;
+    padding: 2px;
+  
+}
+
+/* ////////////////////////////////// */
+
+
+#main {
+    width: 90%;
+    /* height: auto; */
+    margin: auto;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-auto-rows: minmax(min-content, max-content);
+    grid-gap: 7px;
+    color: white;
+}
+
+.meme {
+    width: auto;
+    height: 250px;
+    margin-bottom: 16px;
+    margin-top: 7px;
+    margin-right: 10px;
+    background-color: #474a51;
+}
+
+.meme-img {
+    width: 100%;
+}
+
+#buttons {
+    height: auto;
+    width: 30%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+#more {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(64, 180, 201);
+    border: none;
+    color: white;
+    padding: 10px;
+    height: auto;
+    width: auto;
+    border-radius: 5px;
+}
