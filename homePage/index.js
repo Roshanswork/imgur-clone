@@ -19,7 +19,7 @@ let main = document.getElementById('main');
 
 
 let page = 1;
-let limit = 45;
+let limit = 15;
 let skip = 0;
 
 let url = `https://api.doge-meme.lol/v1/memes/?skip=${skip}&limit=${limit}`;
