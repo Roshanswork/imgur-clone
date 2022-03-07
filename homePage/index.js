@@ -26,7 +26,6 @@ let url = `https://api.doge-meme.lol/v1/memes/?skip=${skip}&limit=${limit}`;
 async function getData() {
     let response = await fetch(url);
     let data = await response.json();
-    // console.log(data.length)
     console.log(data.data)
     showData(data.data);
 }
@@ -49,8 +48,6 @@ function showData(data){
     }    
 }
 
-
-//Buttons: 
 
 let more = document.getElementById('more');
 
